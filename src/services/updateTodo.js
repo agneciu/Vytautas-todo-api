@@ -1,6 +1,6 @@
 export const updateTodo = (todo) => {
   return fetch(
-    "https://codeacademy-todo.vercel.app/api/todo?user=vytautasjonas",
+    "https://codeacademy-todo.vercel.app/api/todo?user=agneciu",
     {
       method: "PUT",
       headers: {

@@ -1,5 +1,5 @@
 export const deleteTodo = (id) =>
-  fetch("https://codeacademy-todo.vercel.app/api/todo?user=vytautasjonas", {
+  fetch("https://codeacademy-todo.vercel.app/api/todo?user=agneciu", {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",

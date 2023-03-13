@@ -31,6 +31,7 @@ export const TodoForm = ({ onClose, editData }) => {
             } else {
               await postTodo(data);
             }
+            setError();
             onClose?.();
           } catch (_) {
             setError("Could not save Todo. Please try saving again.");
